@@ -16,8 +16,6 @@ myguess2 = input("what is the tallest mountain in the world called?")
 print("you said", myguess2)
 if myguess2 == "Mount Everest":
      print("that is correct")
-if myguess2 == "Mt Everest":
-     print("that is correct")
 else: 
      print("that is wrong. the answer was Mount Everest?")
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
@@ -26,8 +24,6 @@ print("level 2- these questions will be harder")
 myguess3 = input("What is the largest ocean in the world")
 print("you said", myguess3)
 if myguess3 == "Pacific":
-     print("that is correct")
-if myguess3 == ("Pacific"):
      print("that is correct")
 if myguess3 == "The Pacific":
      print("that is correct")
