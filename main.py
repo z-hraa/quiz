@@ -20,7 +20,7 @@ if myguess2 == "Mt Everest":
      print("that is correct")
 else: 
      print("that is wrong. the answer was Mount Everest?")
-
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print("level 2- these questions will be harder")
 
 myguess3 = input("What is the largest ocean in the world")
@@ -40,6 +40,7 @@ if myguess4 == "Tokyo":
      print("That is correct.")
 else: print("That is wrong. the correct answer was Tokyo")
 
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print("level 3- this is the hardest. good luck!")
 
 myguess6 = input("what country is the city of Baku in?")
