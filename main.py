@@ -25,9 +25,6 @@ myguess3 = input("What is the largest ocean in the world")
 print("you said", myguess3)
 if myguess3 == "Pacific":
      print("that is correct")
-if myguess3 == "The Pacific":
-     print("that is correct")
-
 else: print("that is wrong. the correct answer was Pacific")
 
 myguess4 = input("what is the largest city in the world by population?")
@@ -40,7 +37,7 @@ print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print("level 3- this is the hardest. good luck!")
 
 myguess6 = input("what country is the city of Baku in?")
-if myguess == "Azerbaijan":
+if myguess6 == "Azerbaijan":
      print("that is correct. good job")
 else: print("that is wrong. the correct answer was Azerbaijan")
 
@@ -50,16 +47,7 @@ if myguess5 == "10 million":
      print("that is correct")
 if myguess5 == "10,000,000":
      print("that is correct")
-else: print(" a clue?")
-clue = input("type help for a clue")
-if clue == "help":
-     print(" it is more than 5 million")
-else: print("ok") 
-
-myguess7 = input("guess again")
-if myguess7 == "10 million":
-     print(" that is correct. well done")
-else: print("that is wrong. the correct answer is 10 million")
+else: input()
 
 print("that is the end of the quiz. i hope you had fun! :->")
 print("★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★")
